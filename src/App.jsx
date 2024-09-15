@@ -9,8 +9,6 @@ import TabButton from './components/TabButton.jsx';
 function App() {
   const [selectedTopic, setSelectedTopic] = useState("pleace click a button");
 
-
-
   function handleSelect(selectedButton){
 
     setSelectedTopic(selectedButton);
