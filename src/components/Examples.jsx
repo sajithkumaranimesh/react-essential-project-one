@@ -33,7 +33,6 @@ export default function Examples() {
       <Tabs
         buttons={
           <>
-            {" "}
             <TabButton
               isSelected={selectedTopic === "components"}
               onClick={() => handleSelect("components")}
